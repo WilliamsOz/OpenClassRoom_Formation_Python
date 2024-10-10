@@ -1,5 +1,7 @@
-print("J'apprends Python !")
+import operations
 
-res = 17 + 35 * 2
+res = operations.addition(3, 5)
+print(res)
 
-print (res)
+res = operations.multiplication(8, 2)
+print(res)
